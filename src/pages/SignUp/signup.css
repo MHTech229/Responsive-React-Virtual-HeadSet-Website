@@ -1,0 +1,180 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body{
+    background: #fff;
+}
+.signUpSection .signUp-container #signUpForm form,
+.signUpSection{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+.signUpSection{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.signUpSection .signUp-container #signUpForm form button,
+.signUpSection .signUp-container #signUpForm,
+.signUpSection .signUp-container #signUpImg,
+.signUpSection .signUp-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+.signUpSection{
+    padding-top: 2rem;
+}
+.signUpSection .signUp-container{
+    width: 100%;
+    height: auto;
+}
+.signUpSection h1{
+    color: var(--secondBackground-color);
+    font-size: 22px;
+    font-family: Domine;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.signUpSection .signUp-container #signUpForm,
+.signUpSection .signUp-container #signUpImg{
+    width: 45%;
+    height: auto;
+}
+.signUpSection .signUp-container #signUpImg img{
+    width: 70%;
+    height: auto;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+.signUpSection .signUp-container #signUpForm form{
+    width: 90%;
+}
+.signUpSection .signUp-container #signUpForm form input{
+    width: 80%;
+    height: 70px;
+    padding: 1rem 3rem;
+    font-family: Poppins_regular;
+    background: rgba(132, 139, 200, 0.18);
+    margin-bottom: 15px;
+    border-radius: 1rem;
+}
+.signUpSection .signUp-container #signUpForm form textarea{
+    width: 80%;
+    height: 100px;
+    padding: 2rem 3rem;
+    font-family: Poppins_regular;
+    background: rgba(132, 139, 200, 0.18);
+    border-radius: 1rem;
+    margin-bottom: 15px;
+}
+.signUpSection .signUp-container #signUpForm form button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 0.68rem;
+    background: var(--secondBackground-color);
+    color: #fff;
+    font-family: Domine;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.signUpSection .signUp-container #signUpForm form button svg{
+    margin-right: 15px !important;
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+@media screen and (max-width: 968px){
+    .signUpSection{
+        max-height: none;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .signUpSection .signUp-container{
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+    }
+    .signUpSection .signUp-container #signUpForm,
+    .signUpSection .signUp-container #signUpImg{
+        width: 65%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .signUpSection .signUp-container #signUpForm,
+    .signUpSection .signUp-container #signUpImg{
+        width: 75%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .signUpSection .signUp-container #signUpForm,
+    .signUpSection .signUp-container #signUpImg{
+        width: 85%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 468px){
+    .signUpSection .signUp-container #signUpForm,
+    .signUpSection .signUp-container #signUpImg{
+        width: 95%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 400px){
+    .signUpSection .signUp-container #signUpForm,
+    .signUpSection .signUp-container #signUpImg{
+        width: 95%;
+        height: auto;
+    }
+    .signUpSection .signUp-container #signUpImg img{
+        width: 80%;
+    }
+    .signUpSection .signUp-container #signUpForm form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 350px){
+    .signUpSection .signUp-container #signUpImg img{
+        width: 90%;
+    }
+    .signUpSection .signUp-container #signUpForm form input{
+        height: 60px;
+    }
+    .signUpSection .signUp-container #signUpForm form textarea{
+        height: 70px;
+    }
+    .signUpSection .signUp-container #signUpForm form button{
+        height: 50px;
+        font-size: 16px;
+    }
+}

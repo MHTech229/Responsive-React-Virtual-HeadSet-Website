@@ -1,0 +1,487 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+h2{
+    font-size: 20px;
+    font-family: Domine;
+    color: var(--secondBackground-color);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+p{
+    font-family: Poppins_regular;
+}
+/*================== About-Header =====================*/
+#About-Header .About-Header-Container .About-Header-Picture,
+#About-Header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#About-Header .About-Header-Container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    overflow-y: hidden;
+}
+#About-Header .About-Header-Container .About-Header-Presentation{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#About-Header{
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background: var(--mainBackground-color);
+}
+#About-Header .About-Header-Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -3rem;
+}
+#About-Header .About-Header-Container .About-Header-Presentation{
+    text-align: start;
+    width: 35%;
+    height: auto;
+}
+#About-Header .About-Header-Container .About-Header-Presentation h1{
+    color: var(--Ultralight-color);
+    font-family: Domine;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#About-Header .About-Header-Container .About-Header-Presentation p{
+    font-family: Poppins_regular;
+    color: #eee;
+    margin-bottom: 15px;
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns{
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: start;
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns button{
+    padding: 0.68rem 1rem;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns button a{
+    text-decoration: none;
+    font-family: Poppins_regular;
+    width: 100%;
+    height: 100%;
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns button#ContactBtn{
+    background: var(--secondBackground-color);
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns button#ContactBtn a{
+    color: var(--Ultralight-color);
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns button#EmailBtn{
+    background: var(--Ultralight-color);
+}
+#About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns button#EmailBtn a{
+    color: var(--secondBackground-color);
+}
+#About-Header .About-Header-Container .About-Header-Picture{
+    width: 45%;
+    height: auto;
+}
+
+#About-Header .About-Header-Container .About-Header-Picture img{
+    width: 100%;
+    height: auto;
+}
+
+@-webkit-keyframes fly {
+    0%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+    50%{
+        -webkit-transform: translateY(3%);
+                transform: translateY(3%);
+    }
+    100%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+}
+
+@keyframes fly {
+    0%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+    50%{
+        -webkit-transform: translateY(3%);
+                transform: translateY(3%);
+    }
+    100%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+}
+
+@media screen and (max-width: 868px){
+    #About-Header .About-Header-Container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        top: 2rem;
+    }
+    #About-Header .About-Header-Container .About-Header-Presentation{
+        width: 60%;
+        text-align: center;
+    }
+    #About-Header .About-Header-Container .About-Header-Presentation #About-Header-Btns{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+    }
+    #About-Header .About-Header-Container .About-Header-Picture{
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+    #About-Header{
+        max-height: none;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #About-Header .About-Header-Container .About-Header-Presentation h1{
+        font-size: 20px;
+    }
+    #About-Header .About-Header-Container .About-Header-Presentation{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 468px){
+    #About-Header .About-Header-Container .About-Header-Picture{
+        width: 80%;
+    }
+}
+
+/*================== About-Header =====================*/
+
+
+
+/*================== About-Section =====================*/
+#About-Main .main-About-container #Services-Section .services-container .service .service-icon,
+#About-Main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#About-Main{
+    padding-top: 3rem;
+}
+#About-Main{
+    width: 100vw;
+    height: auto;
+}
+#About-Main .main-About-container #Services-Section,
+#About-Main .main-About-container{
+    width: 100%;
+    height: auto;
+}
+#About-Main .main-About-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#About-Main .main-About-container #Services-Section .services-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#About-Main .main-About-container #Services-Section .services-container .service,
+#About-Main .main-About-container #Services-Section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#About-Main .main-About-container #Services-Section .heading{
+    width: 40%;
+    height: auto;
+}
+#About-Main .main-About-container #Services-Section .heading p{
+    font-family: Poppins_regular;
+}
+#About-Main .main-About-container #Services-Section .services-container{
+    padding: 1rem;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+#About-Main .main-About-container #Services-Section .services-container .service{
+    width: 200px;
+    height: 250px;
+    -webkit-box-shadow: 0 20px 30px 1px rgba(0,0,0,.2);
+            box-shadow: 0 20px 30px 1px rgba(0,0,0,.2);
+    padding: 1rem;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+    margin: 15px;
+}
+#About-Main .main-About-container #Services-Section .services-container .service .service-icon{
+    margin-bottom: 15px;
+}
+#About-Main .main-About-container #Services-Section .services-container .service .service-icon svg{
+    color: var(--secondBackground-color);
+    font-size: 3.5rem;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#About-Main .main-About-container #Services-Section  h4{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: Poppins_regular;
+}
+#About-Main .main-About-container #Services-Section .services-container .service h3{
+    color: var(--secondBackground-color);
+    font-size: 16px;
+    font-family: Domine;
+    margin-bottom: 7px;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#About-Main .main-About-container #Services-Section .services-container .service p{
+    font-size: 13px;
+    margin-bottom: 7px;
+    text-align: center !important;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#About-Main .main-About-container #Services-Section .services-container .service .ReadmoreBtn{
+    width: 150px;
+    height: auto;
+    padding: 0.78rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background: var(--secondBackground-color);
+    -webkit-box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+            box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#About-Main .main-About-container #Services-Section .services-container .service .ReadmoreBtn a{
+    color: #eee;
+    text-decoration: none;
+    font-family: Domine;
+    text-transform: capitalize;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#About-Main .main-About-container #Services-Section .services-container .service:hover .ReadmoreBtn{
+    background: #fff;
+    -webkit-box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15);
+            box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15);
+}
+#About-Main .main-About-container #Services-Section .services-container .service:hover .ReadmoreBtn a{
+    color: var(--secondBackground-color);
+}
+#About-Main .main-About-container #Services-Section .services-container .service:hover .service-icon svg,
+#About-Main .main-About-container #Services-Section .services-container .service:hover p,
+#About-Main .main-About-container #Services-Section .services-container .service:hover h3{
+    color: #fff;
+}
+#About-Main .main-About-container #Services-Section .services-container .service:hover{
+    background: var(--Card-hover-color);
+}
+@media screen and (max-width: 1024px){
+    #About-Main .main-About-container #Services-Section .heading{
+        width: 60%;
+    }  
+}
+@media screen and (max-width: 668px){
+    #About-Main .main-About-container #Services-Section .heading{
+        width: 80%;
+    }  
+}
+@media screen and (max-width: 468px){
+    #About-Main .main-About-container #Services-Section .heading{
+        width: 90%;
+    }  
+}
+/*================== About-Section =====================*/
+
+
+
+
+
+/*================== Partners-Section =====================*/
+#Partners-Section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#Partners-Section .Partners-container .Partner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+#Partners-Section .Partners-container .Partner img,
+#Partners-Section .Partners-container{
+    width: 100%;
+    height: auto;
+}
+#Partners-Section {
+    width: 100vw;
+    height: auto;
+}
+#Partners-Section .Partners-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+#Partners-Section .heading p{
+    font-size: 14px;
+}
+#Partners-Section .heading{
+    width: 50%;
+}
+#Partners-Section h4{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: Poppins_regular;
+}
+#Partners-Section .Partners-container .Partner{
+    width: 150px;
+    height: 150px;
+    -webkit-box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+            box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+#Partners-Section .Partners-container .Partner:hover{
+    -webkit-box-shadow: inset 4px 4px 6px -1px rgba(0,0,0, 0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0, 0.5);
+            box-shadow: inset 4px 4px 6px -1px rgba(0,0,0, 0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0, 0.5);
+    -webkit-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
+}
+/*================== Partners-Section =====================*/

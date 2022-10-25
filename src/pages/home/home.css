@@ -1,0 +1,712 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+h2{
+    font-size: 20px;
+}
+/*================== Home-Header =====================*/
+#Home-Header .Home-Header-Container .Home-Header-Picture,
+#Home-Header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#Home-Header .Home-Header-Container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    overflow-y: hidden;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#Home-Header{
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background: var(--mainBackground-color);
+}
+#Home-Header .Home-Header-Container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -3rem;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation{
+    text-align: start;
+    width: 35%;
+    height: auto;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation h1{
+    color: var(--Ultralight-color);
+    font-family: Domine;
+    margin-bottom: 15px;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation p{
+    font-family: Poppins_regular;
+    color: #eee;
+    margin-bottom: 15px;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns{
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: start;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns button{
+    padding: 0.68rem 1rem;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns button a{
+    text-decoration: none;
+    font-family: Poppins_regular;
+    width: 100%;
+    height: 100%;
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns button#StartedBtn{
+    background: var(--secondBackground-color);
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns button#StartedBtn a{
+    color: var(--Ultralight-color);
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns button#SourceBtn{
+    background: var(--Ultralight-color);
+}
+#Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns button#SourceBtn a{
+    color: var(--secondBackground-color);
+}
+#Home-Header .Home-Header-Container .Home-Header-Picture{
+    width: 45%;
+    height: auto;
+}
+
+#Home-Header .Home-Header-Container .Home-Header-Picture img{
+    width: 100%;
+    height: auto;
+    -webkit-animation: fly 4s ease-in-out infinite ;
+            animation: fly 4s ease-in-out infinite ;
+}
+
+@-webkit-keyframes fly {
+    0%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+    50%{
+        -webkit-transform: translateY(3%);
+                transform: translateY(3%);
+    }
+    100%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+}
+
+@keyframes fly {
+    0%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+    50%{
+        -webkit-transform: translateY(3%);
+                transform: translateY(3%);
+    }
+    100%{
+        -webkit-transform: translateY(-5%);
+                transform: translateY(-5%);
+    }
+}
+
+@media screen and (max-width: 868px){
+    #Home-Header .Home-Header-Container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        top: 2rem;
+    }
+    #Home-Header .Home-Header-Container .Home-Header-Presentation{
+        width: 60%;
+        text-align: center;
+    }
+    #Home-Header .Home-Header-Container .Home-Header-Presentation #Home-Header-Btns{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+    }
+    #Home-Header .Home-Header-Container .Home-Header-Picture{
+        width: 60%;
+    }
+    #Home-Header{
+        max-height: none;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #Home-Header .Home-Header-Container .Home-Header-Presentation h1{
+        font-size: 20px;
+    }
+    #Home-Header .Home-Header-Container .Home-Header-Presentation{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 468px){
+    #Home-Header .Home-Header-Container .Home-Header-Picture{
+        width: 80%;
+    }
+}
+
+/*================== Home-Header =====================*/
+
+
+
+
+/*================== Home-Wrapper =====================*/
+#Home-Wrapper{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#Home-Wrapper .mini-wrapper{
+    background: var(--secondBackground-color);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+}
+#Home-Wrapper .mini-wrapper:nth-child(1){
+    position: fixed;
+    left: 0;
+}
+#Home-Wrapper .mini-wrapper:nth-child(2){
+    position: fixed;
+    left: 20%;
+}
+#Home-Wrapper .mini-wrapper:nth-child(3){
+    position: fixed;
+    left: 40%;
+}
+#Home-Wrapper .mini-wrapper:nth-child(4){
+    position: fixed;
+    left: 60%;
+}
+#Home-Wrapper .mini-wrapper:nth-child(5){
+    position: fixed;
+    left: 80%;
+}
+
+
+/*================== Home-Wrapper =====================*/
+
+
+
+
+
+
+/*================== Home-Techonlogies =====================*/
+#Home-Main .Technologies-Container .Techno-image,
+#Home-Main .Technologies-Container .Techno-image .Techno-image-container,
+#Home-Main .Technologies-Container,
+#Home-Main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#Home-Main{
+    width: 100vw;
+    height: auto;
+    padding: 3rem 1rem;
+    padding-top: 1rem;
+}
+#Home-Main .Technologies-Container .Techno-text,
+#Home-Main .main-Home-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#Home-Main .main-Home-container{
+    width: 100%;
+    height: auto;
+}
+
+#Home-Main .Technologies-Container{
+    width: 100%;
+    height: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+#Home-Main .Technologies-Container .Techno-image{
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    margin: 25px;
+}
+#Home-Main .Technologies-Container .Techno-text{
+    width: 35%;
+    height: auto;
+}
+#Home-Main .Technologies-Container .Techno-image .Techno-image-container{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background: var(--secondBackground-color);
+}
+#Home-Main .Technologies-Container .Techno-image .Techno-image-container img{
+   width: 100%;
+   height: auto;
+   -webkit-transform: scale(1.3);
+       -ms-transform: scale(1.3);
+           transform: scale(1.3);
+}
+#Home-Main .Technologies-Container .Techno-text h2,
+#Home-Main .Technologies-Container .Techno-text p{
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: start ;
+    width: 100%;
+    margin-bottom: 12px;
+}
+#Home-Main .Technologies-Container .Techno-text h2{
+    font-family: Domine;
+    text-transform: uppercase;
+    color: var(--secondBackground-color);
+}
+#Home-Main .Technologies-Container .Techno-text p {
+    font-family: Poppins_regular;
+    font-size: 15px;
+}
+@media screen and (max-width: 868px){
+    #Home-Main .Technologies-Container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    #Home-Main .Technologies-Container .Techno-text{
+        width: 65%;
+    }
+    #Home-Main .Technologies-Container .Techno-text h2,
+    #Home-Main .Technologies-Container .Techno-text p{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center ;
+    }
+}
+@media screen and (max-width: 868px){
+    #Home-Main .Technologies-Container .Techno-text{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 408px){
+    #Home-Main .Technologies-Container .Techno-text{
+        width: 95%;
+    }
+    #Home-Main .Technologies-Container .Techno-image{
+        width: 250px;
+        height: 250px;
+        line-height: 250px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    img{
+        -webkit-transform: scale(1) !important;
+            -ms-transform: scale(1) !important;
+                transform: scale(1) !important;
+    }
+}
+/*================== Home-Techonlogies =====================*/
+
+
+
+/*================== Features-Section =====================*/
+#Features-Section .Features-Container,
+#Features-Section .Features-Container .Feature-Picture,
+#Features-Section .Features-Container .Features-Cards
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#Features-Section,
+#Features-Section .Features-Container .Features-Cards .feature-card,
+#Features-Section .heading
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+#Features-Section{ 
+    width: 100vw;
+    height: auto;
+}
+#Features-Section .heading{
+    width: 60%;
+    height: auto;
+}
+#Features-Section h2{
+    margin-bottom: 10px;
+}
+#Features-Section h2,
+#Features-Section h3{
+    font-size: Domine;
+    text-transform: uppercase;
+    color: var(--secondBackground-color);
+}
+#Features-Section p{
+    font-family: Poppins_regular;
+}
+#Features-Section .Features-Container .Feature-Picture{
+    width: 300px;
+    height: 300px;
+}
+#Features-Section .Features-Container .Feature-Picture img{
+    width: 80%;
+    height: auto;
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+}
+#Features-Section .Features-Container .Features-Cards{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 45%;
+    height: auto;
+}
+
+#Features-Section .Features-Container .Features-Cards .feature-card{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+            box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+    padding: 1.5rem;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#Features-Section .Features-Container .Features-Cards .feature-card:hover{
+    -webkit-box-shadow: inset 4px 4px 6px -1px rgba(0,0,0, 0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0, 0.5);
+            box-shadow: inset 4px 4px 6px -1px rgba(0,0,0, 0.2), inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0, 0.5);
+    -webkit-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
+}
+#Features-Section .Features-Container .Features-Cards .feature-card .feature-icon{
+    width: 80%;
+    height: auto;
+}
+#Features-Section .Features-Container .Features-Cards .feature-card .feature-icon svg{
+    color: var(--secondBackground-color);
+    font-size: 2rem;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#Features-Section .Features-Container .Features-Cards .feature-card:hover h3{
+    text-shadow: 1px 1px 1px #000;
+}
+#Features-Section .Features-Container .Features-Cards .feature-card h3{
+    font-size: 16px;
+    margin-bottom: 3px;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+#Features-Section .Features-Container .Features-Cards .feature-card p{
+    font-size: 14px;
+    -webkit-transition: var(--primary-transition);
+    -o-transition: var(--primary-transition);
+    transition: var(--primary-transition);
+}
+
+@media screen and (max-width: 868px){
+    #Features-Section .Features-Container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    #Features-Section .Features-Container .Features-Cards{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px){
+    #Features-Section .heading{
+        width: 80%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 570px){
+    #Features-Section .Features-Container .Features-Cards{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #Features-Section .Features-Container .Feature-Picture{
+        width: 250px;
+        height: 250px;
+    }
+    #Features-Section .Features-Container .Features-Cards{
+        width: 90%;
+    }
+}
+/*================== Features-Section =====================*/
+
+
+
+/*================== DownloadApp-Section =====================*/
+#DownloadApp-Section,
+#DownloadApp-Section .Container-App-Download,
+#DownloadApp-Section .Container-App-Download .Download-image,
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns button,
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns button a
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#DownloadApp-Section{
+    width: 100vw;
+    height: auto;
+    padding-top: 2rem;
+}
+
+#DownloadApp-Section .Container-App-Download{
+    width: 100%;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#DownloadApp-Section .Container-App-Download .Download-text{
+    width: 35%;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-image{
+    width: 300px;
+    height: 300px;
+}
+#DownloadApp-Section .Container-App-Download .Download-image img{
+    width: 80%;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: start;
+    width: 100%;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns button{
+    border: none;
+    outline: none;
+    border-radius: 0.68rem;
+    width: 150px;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns button#PlayStore{
+    margin-right: 10px;
+}
+
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns button a{
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-text .Download-Btns button a img{
+    width: 100%;
+    height: auto;
+}
+#DownloadApp-Section .Container-App-Download .Download-text h2,
+#DownloadApp-Section .Container-App-Download .Download-text p{ 
+    text-align: start;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+#DownloadApp-Section .Container-App-Download .Download-text h2 {
+    color: var(--secondBackground-color);
+    font-family: Domine;
+    text-transform: uppercase;
+}
+#DownloadApp-Section .Container-App-Download .Download-text p{
+    font-family: Poppins_regular;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 868px){
+    #DownloadApp-Section .Container-App-Download{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    #DownloadApp-Section .Container-App-Download .Download-text h2,
+    #DownloadApp-Section .Container-App-Download .Download-text p{ 
+        text-align: center;
+    }
+    #DownloadApp-Section .Container-App-Download .Download-text{
+        width: 60%;
+    }
+    #DownloadApp-Section .Container-App-Download .Download-text h2{
+        font-size: 20px;
+    }
+    #DownloadApp-Section .Container-App-Download .Download-text .Download-Btns{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 668px){
+    #DownloadApp-Section .Container-App-Download .Download-text{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px){
+    #DownloadApp-Section .Container-App-Download .Download-image{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/*================== DownloadApp-Section =====================*/
+@media screen and (max-width: 768px){
+    h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 368px){
+    main p{
+        text-align: justify !important;
+    }
+}

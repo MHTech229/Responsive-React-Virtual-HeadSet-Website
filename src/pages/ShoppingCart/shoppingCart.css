@@ -1,0 +1,365 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+#ShoppingCart-Main #ShoppingCart-Section .shopping-Cart,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form #card-img,
+#ShoppingCart-Main #ShoppingCart-Section,
+#Product-Table .Shopping-Cart-Line,
+#Product-Table .Shopping-Cart-Line .Add-Product-Price,
+#Product-Table .Shopping-Cart-Line .image-container,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .checkout-header,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form .payPal-Btns,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form .payPal-Btns button,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .cart-items-empty,
+#ShoppingCart-Main #ShoppingCart-Section .cart-items-total-price,
+#Product-Table .Shopping-Cart-Line .image-container .Add-Product-Name,
+#Product-Table .Shopping-Cart-Line .image-container .Add-Product-Function,
+#Product-Table .Shopping-Cart-Line .image-container .Add-Product-Function button,
+#card-img-container,
+#ShoppingCart-Main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form .details,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .checkout-header,
+#Product-Table,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column ;
+            flex-direction: column ;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#ShoppingCart-Main{
+    width: 100vw;
+    height: auto;
+    padding: 3rem 0;
+}
+#card-img-container{
+    width: 80%;
+    height: auto;   
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#card-img{
+    width: 80%;
+    height: auto;   
+    -webkit-transform: scale(0.8);   
+        -ms-transform: scale(0.8);   
+            transform: scale(0.8);
+}
+#Product-Table .Shopping-Cart-Line .image-container img,
+#Product-Table,
+#Product-Table .Shopping-Cart-Line,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .payPal-Btns div button a img,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .payPal-Btns div button a,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .checkout-header,
+#ShoppingCart-Main #ShoppingCart-Section{
+    width: 100%;
+    height: auto;
+}
+#ShoppingCart-Main #ShoppingCart-Section .shopping-Cart{
+    width: 50%;
+    height: auto;
+}
+#ShoppingCart-Main #ShoppingCart-Section .shopping-Cart{
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#ShoppingCart-Main #ShoppingCart-Section .shopping-Cart .cart-items-header{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background: var(--secondBackground-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: Domine;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#ShoppingCart-Main #ShoppingCart-Section .shopping-Cart .clear-cart{
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: end;
+    padding: 0.68rem 1rem;
+}
+#ShoppingCart-Main #ShoppingCart-Section .shopping-Cart .clear-cart button{
+    padding: 0.68rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.68rem;
+    background: var(--secondBackground-color);
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Poppins_regular;
+}
+#ShoppingCart-Main #ShoppingCart-Section .cart-items-empty{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    color: var(--mainBackground-color);
+    font-family: Poppins_regular;
+    font-size: 15px;
+}
+#ShoppingCart-Main #ShoppingCart-Section .cart-items-total-price{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background: var(--secondBackground-color);
+    color:  #ffffff;
+    font-family: Domine;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+#Product-Table .Shopping-Cart-Line div{
+    margin:  0 15px;
+}
+#Product-Table .Shopping-Cart-Line .image-container{
+    width: 100px;
+    height: 100px;
+}
+#Product-Table .Shopping-Cart-Line .Add-Product-Name{
+    color: var(--secondBackground-color);
+    font-family: Domine;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#Product-Table .Shopping-Cart-Line .Add-Product-Function button{
+    border: none;
+    outline: none;
+    background: var(--secondBackground-color);
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0.5rem;
+}
+#Product-Table .Shopping-Cart-Line .Add-Product-Function span{
+    margin: 0 10px;
+    color: var(--mainBackground-color);
+    font-family: Domine;
+    font-size: 1rem;
+}
+#Product-Table .Shopping-Cart-Line .Add-Product-Price{
+    color: var(--mainBackground-color);
+    font-family: Domine;
+    font-size: 1.2rem;
+}
+#ShoppingCart-Main #ShoppingCart-Section .cart-items-total-price #total-price{
+    margin-left: 20px;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+    width: 50%;
+    height: auto;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .checkout-header h2{
+    margin-bottom: 7px;
+    font-family: Domine;
+    color: var(--secondBackground-color);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .checkout-header p{
+    font-family: Poppins_regular;
+    font-size: 14px;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form .details,
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form{
+  width: 80%;
+  height: auto;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form input{
+    width: 80%;
+    height: 55px;
+    padding: 0 2rem;
+    font-family: Poppins_regular;
+    background: var( --light-color);
+    border: none;
+    outline: none;
+    border-radius: 0.88rem;
+    margin-bottom: 15px;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form .details input{
+    width: 100%;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form #PayButton{
+    background: var(--secondBackground-color);
+    color: #ffffff;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .payPal-Btns{
+    width: 80%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form .payPal-Btns div{
+    width: 50%;
+    height: auto;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form  .payPal-Btns button{
+    width: 100%;
+    height: auto;
+    background: none;
+    border: none;
+    outline: none;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form  .payPal-Btns button a{
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+#ShoppingCart-Main #ShoppingCart-Section .checkout-Form  .payPal-Btns button a img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*====================== Media Queries ======================*/
+
+
+@media screen and (max-width: 1192px){
+    #ShoppingCart-Main #ShoppingCart-Section .shopping-Cart,
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+        width: 50%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1097px){
+    #ShoppingCart-Main #ShoppingCart-Section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    #ShoppingCart-Main #ShoppingCart-Section .shopping-Cart,
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+        width: 60%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1095px){
+    #ShoppingCart-Main #ShoppingCart-Section .shopping-Cart,
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+        width: 70%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 785px){
+    #ShoppingCart-Main #ShoppingCart-Section .shopping-Cart,
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+        width: 85%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 646px){
+    #ShoppingCart-Main #ShoppingCart-Section .shopping-Cart,
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form{
+        width: 95%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 585px){
+    #Product-Table .Shopping-Cart-Line div{
+        margin:  0 5px;
+    }
+}
+@media screen and (max-width: 410px){
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form .form-container form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 478px){
+    #ShoppingCart-Main #ShoppingCart-Section .checkout-Form p{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 478px){
+    #Product-Table .Shopping-Cart-Line .Add-Product-Function button,
+    #ShoppingCart-Main #ShoppingCart-Section .cart-items-total-price,
+    #ShoppingCart-Main #ShoppingCart-Section .shopping-Cart .cart-items-header{
+        font-size: 14px;
+    }
+    #Product-Table .Shopping-Cart-Line .Add-Product-Function button{
+        width: 25px;
+        height: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+    }
+    #Product-Table .Shopping-Cart-Line .Add-Product-Price{
+       display: none;
+    }
+}

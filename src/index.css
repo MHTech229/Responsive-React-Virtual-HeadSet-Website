@@ -1,0 +1,59 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: Domine;
+    src: url('./FontFamilies/Domine/Domine-VariableFont_wght.ttf'); 
+}
+@font-face {
+    font-family: Inter;
+    src: url('./FontFamilies/Inter/Inter-VariableFont_slnt\,wght.ttf'); 
+}
+@font-face {
+    font-family: DIMITRI;
+    src: url('./FontFamilies/dimitri/DIMITRI_.TTF'); 
+}
+@font-face {
+    font-family: Poppins_regular;
+    src: url('./FontFamilies/Poppins/Poppins-Regular.ttf'); 
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+:root{
+    --mainBackground-color: rgb(17, 17, 46);
+    --secondBackground-color: indigo;
+    --Card-hover-color: rgba(99, 35, 145, 0.87);
+    --light-color: rgba(132, 139, 200, 0.18);
+    --primary-transition: all 500ms ease-in-out;
+    --Ultralight-color: #f8f8f8;
+
+    --transparent-color: #f8f8f8be;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background: var(--Ultralight-color);
+    overflow-x: hidden;
+}
+main,
+header{
+    position: relative;
+    top: 5rem;
+}
+main{
+    margin-bottom: 5rem;
+}
